@@ -27,8 +27,8 @@ public final class FinalClass {
     }
 
     public void displayData() {
-        System.out.println("Имя: "+name);
-        System.out.println("Возраст: "+age);
+        System.out.println("Имя: " + name);
+        System.out.println("Возраст: " + age);
         return;
     }
 }

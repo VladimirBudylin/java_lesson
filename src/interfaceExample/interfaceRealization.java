@@ -1,26 +1,26 @@
 package interfaceExample;
 
-public class interfaceRealization implements interfaceShape, interfaceColor {
+public class interfaceRealization implements interfaceShape, InterfaceColor {
     String Color;
     double sideLenght;
 
-    public interfaceRealization(String color) {
+    public interfaceRealization(String color, double sideLength) {
         this.Color = color;
-        this.sideLenght = sideLenght;
+        this.sideLenght = sideLength;
     }
 
     @Override
-    public static getColor() {
-        return InterfaceColor;
+    public String getColor() {
+        return Color;
     }
 
     @Override
-    public static getArea() {
+    public double getArea() {
         return sideLenght * sideLenght;
     }
 
     @Override
-    public static getPerimeter() {
+    public double getPerimeter() {
         return 4 * sideLenght;
     }
 }
